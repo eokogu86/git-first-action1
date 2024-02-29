@@ -40,7 +40,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
    deploy: 
-     
+     needs: test-first-job
      runs-on: ubuntu-latest
      steps: 
        - name: Get code
