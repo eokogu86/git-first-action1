@@ -1,4 +1,4 @@
-name: output information
+name: output information 2
 on: issues
 jobs:
    output-info:
